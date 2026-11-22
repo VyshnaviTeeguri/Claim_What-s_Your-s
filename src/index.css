@@ -1,0 +1,160 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   Design Tokens — Claim What's Yours (Warm Civic Palette)
+   Tweak these CSS variables to adjust colours, radii, shadows, and fonts.
+   ========================================================================== */
+:root {
+  /* Colours */
+  --cwy-bg-page: #FDF8F2;
+  --cwy-bg-card: #FFFFFF;
+  --cwy-bg-subbox: #F4F0EA;
+  --cwy-brand-teal: #0F6B5C;
+  --cwy-brand-teal-light: #158573;
+  --cwy-brand-teal-soft: #E6F2EF;
+  --cwy-accent-saffron: #E8871E;
+  --cwy-accent-saffron-soft: #FFF2E2;
+  --cwy-success: #1B7F4B;
+  --cwy-success-bg: #E6F4EC;
+  --cwy-warning: #B26A00;
+  --cwy-warning-bg: #FFF3E0;
+  --cwy-muted: #64748B;
+  --cwy-muted-bg: #F1F5F9;
+  --cwy-ink: #1F2A28;
+  --cwy-ink-secondary: #42524F;
+  --cwy-border: #E5DDD3;
+
+  /* Radii & Shadows */
+  --cwy-radius-card: 16px;
+  --cwy-radius-btn: 14px;
+  --cwy-shadow-card: 0 2px 8px rgba(15, 43, 38, 0.08);
+  --cwy-shadow-mic: 0 6px 18px rgba(232, 135, 30, 0.32);
+
+  /* Typography */
+  --cwy-font-sans: "Inter", "Noto Sans Telugu", system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html,
+  body {
+    background-color: var(--cwy-bg-page);
+    color: var(--cwy-ink);
+    font-family: var(--cwy-font-sans);
+    font-size: 17px;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: var(--cwy-ink);
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Warm teal gradient header */
+.cwy-header-gradient {
+  background: linear-gradient(135deg, var(--cwy-brand-teal) 0%, var(--cwy-brand-teal-light) 100%);
+}
+
+/* Card surface token */
+.cwy-card {
+  background-color: var(--cwy-bg-card);
+  border-radius: var(--cwy-radius-card);
+  box-shadow: var(--cwy-shadow-card);
+  border: 1px solid var(--cwy-border);
+}
+
+/* Primary & Secondary Button Tokens */
+.cwy-btn-primary {
+  background-color: var(--cwy-brand-teal);
+  color: #FFFFFF;
+  min-height: 52px;
+  border-radius: var(--cwy-radius-btn);
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 150ms ease, transform 120ms ease;
+}
+.cwy-btn-primary:hover:not(:disabled) {
+  background-color: #0C594D;
+}
+.cwy-btn-primary:active:not(:disabled) {
+  transform: scale(0.99);
+}
+
+.cwy-btn-secondary {
+  background-color: var(--cwy-bg-card);
+  color: var(--cwy-brand-teal);
+  border: 2px solid var(--cwy-brand-teal);
+  min-height: 52px;
+  border-radius: var(--cwy-radius-btn);
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 150ms ease, transform 120ms ease;
+}
+.cwy-btn-secondary:hover:not(:disabled) {
+  background-color: var(--cwy-brand-teal-soft);
+}
+
+/* Saffron Mic Pulse Animation */
+@keyframes saffron-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(232, 135, 30, 0.55);
+  }
+  70% {
+    box-shadow: 0 0 0 18px rgba(232, 135, 30, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(232, 135, 30, 0);
+  }
+}
+
+.animate-saffron-pulse {
+  animation: saffron-ring 1.6s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+/* Soft grey shimmer skeleton loader */
+@keyframes cwy-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.cwy-skeleton {
+  background: linear-gradient(90deg, #ECE8E1 25%, #F6F3EE 50%, #ECE8E1 75%);
+  background-size: 200% 100%;
+  animation: cwy-shimmer 1.5s infinite linear;
+  border-radius: 10px;
+}
+
+/* Accessible Focus Outlines */
+:focus-visible {
+  outline: 3px solid var(--cwy-accent-saffron);
+  outline-offset: 2px;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}

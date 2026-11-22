@@ -1,0 +1,298 @@
+[
+  {
+    "scheme_id": "AP_NTR_BHAROSA_OAP",
+    "scheme_name": "NTR Bharosa – Old Age Pension",
+    "target_group": "Senior Citizens",
+    "benefit_summary": "₹4,000/month pension via DBT",
+    "eligibility_rules": {
+      "age_min": 65,
+      "resident": "Andhra Pradesh",
+      "has_white_ration_card": true,
+      "bpl_family": true,
+      "not_receiving_other_pension": true
+    },
+    "documents_required": [
+      "White Ration Card",
+      "Age proof (show only, do not enter number)",
+      "BPL/income proof",
+      "Bank passbook first page"
+    ],
+    "application_channel": "Grama/Ward Sachivalayam (eKYC + field verification)",
+    "official_source_url": "https://apsirdpr.ap.gov.in/",
+    "last_verified": "2026-09-06",
+    "verification_status": "Verified — G.O.Ms.No.43 dt 13 Jun 2024",
+    "notes": "Age threshold 65+ per Aadhaar. Some categories differ — verify at Sachivalayam."
+  },
+  {
+    "scheme_id": "AP_NTR_BHAROSA_WIDOW",
+    "scheme_name": "NTR Bharosa – Widow Pension",
+    "target_group": "Widows / Women",
+    "benefit_summary": "₹4,000/month pension via DBT",
+    "eligibility_rules": {
+      "marital_status": "widow",
+      "resident": "Andhra Pradesh",
+      "has_white_ration_card": true,
+      "bpl_family": true
+    },
+    "documents_required": [
+      "Husband's death certificate (compulsory)",
+      "White Ration Card",
+      "Bank passbook first page"
+    ],
+    "application_channel": "Grama/Ward Sachivalayam",
+    "official_source_url": "https://apsirdpr.ap.gov.in/",
+    "last_verified": "2026-09-06",
+    "verification_status": "Verified — G.O.Ms.No.43",
+    "notes": "No age limit for widow pension."
+  },
+  {
+    "scheme_id": "AP_NTR_BHAROSA_DISABLED",
+    "scheme_name": "NTR Bharosa – Disabled Pension",
+    "target_group": "Persons with Disabilities",
+    "benefit_summary": "₹6,000/month pension via DBT",
+    "eligibility_rules": {
+      "has_sadarem_certificate": true,
+      "sadarem_disability_percent_min": 40,
+      "resident": "Andhra Pradesh",
+      "has_white_ration_card": true
+    },
+    "documents_required": [
+      "SADAREM certificate (≥40% disability)",
+      "White Ration Card",
+      "Bank passbook first page"
+    ],
+    "application_channel": "Grama/Ward Sachivalayam",
+    "official_source_url": "https://apsirdpr.ap.gov.in/",
+    "last_verified": "2026-09-06",
+    "verification_status": "Verified",
+    "notes": "No age limit. SADAREM is the gatekeeping document."
+  },
+  {
+    "scheme_id": "AP_THALLIKI_VANDANAM",
+    "scheme_name": "Thalliki Vandanam",
+    "target_group": "Students / Mothers",
+    "benefit_summary": "₹15,000/year education assistance paid to mother",
+    "eligibility_rules": {
+      "child_class": "1_to_12",
+      "school_type": "government|aided|private_recognised",
+      "resident": "Andhra Pradesh",
+      "has_white_ration_card": true,
+      "monthly_family_income_rural_max": 10000,
+      "monthly_family_income_urban_max": 12000,
+      "attendance_min_percent": 75,
+      "mother_has_aadhaar_seeded_bank_account": true
+    },
+    "documents_required": [
+      "White Ration Card",
+      "Income certificate",
+      "School enrolment/attendance record",
+      "Mother's Aadhaar-seeded NPCI bank account first page",
+      "Photo"
+    ],
+    "application_channel": "School submits eligible list to School Education Dept; status at gsws-nbm.ap.gov.in/BM/",
+    "official_source_url": "https://cse.ap.gov.in/",
+    "last_verified": "2025-06-20",
+    "verification_status": "Verified — AY 2025-26",
+    "notes": "Replaced Jagananna Amma Vodi. No cap on number of children. Household land/electricity caps also apply."
+  },
+  {
+    "scheme_id": "AP_VIDYA_DEVEEVANA",
+    "scheme_name": "Vidya Deevena (Fee Reimbursement)",
+    "target_group": "Students",
+    "benefit_summary": "Full tuition fee reimbursement for higher education",
+    "eligibility_rules": {
+      "resident": "Andhra Pradesh",
+      "course": "degree|pg|diploma|polytechnic|itI",
+      "institution_recognised": true,
+      "has_white_ration_card": true,
+      "monthly_family_income_rural_max": 10000,
+      "monthly_family_income_urban_max": 12000,
+      "attendance_min_percent": 75
+    },
+    "documents_required": [
+      "White Ration Card",
+      "Income certificate",
+      "Admission/allotment proof",
+      "College attendance",
+      "Bank passbook first page"
+    ],
+    "application_channel": "Jnanabhumi portal; college nodal officer verification",
+    "official_source_url": "https://jnanabhumi.ap.gov.in/",
+    "last_verified": "2025-08-01",
+    "verification_status": "Verification pending — confirm at Jnanabhumi",
+    "notes": "Scheme continues under current government but naming/amounts have been revised. Re-verify before presenting as active."
+  },
+  {
+    "scheme_id": "AP_ANNADATA_SUKHIBHAVA",
+    "scheme_name": "Annadata Sukhibhava",
+    "target_group": "Small & Marginal Farmers",
+    "benefit_summary": "₹20,000/year per farmer family (₹6,000 PM-KISAN + ₹14,000 state)",
+    "eligibility_rules": {
+      "occupation": "farmer",
+      "resident": "Andhra Pradesh",
+      "is_landowning_farmer_or_CCRC_tenant": true
+    },
+    "documents_required": [
+      "Land records from meebhoomi.ap.gov.in (Adangal/1-B/RTC)",
+      "Aadhaar (show only)",
+      "Aadhaar-linked bank account first page",
+      "CCRC for tenants"
+    ],
+    "application_channel": "Grama/Ward Sachivalayam; three instalments aligned to sowing seasons",
+    "official_source_url": "https://ap.gov.in/",
+    "last_verified": "2026-06-20",
+    "verification_status": "Verified — replaced YSR Rythu Bharosa",
+    "notes": "Landless tenant farmers holding CCRC get the full amount from the state."
+  },
+  {
+    "scheme_id": "AP_DEEPAM_2",
+    "scheme_name": "Deepam 2.0",
+    "target_group": "Women Heads / Low-Income Families",
+    "benefit_summary": "3 free LPG cylinders per year",
+    "eligibility_rules": {
+      "resident": "Andhra Pradesh",
+      "has_white_ration_card": true
+    },
+    "documents_required": [
+      "White Ration Card",
+      "Aadhaar (show only)"
+    ],
+    "application_channel": "Authorised LPG distributor; one cylinder every four months",
+    "official_source_url": "https://ap.gov.in/",
+    "last_verified": "2024-11-01",
+    "verification_status": "Verified — launched Nov 2024",
+    "notes": "One free cylinder every four months."
+  },
+  {
+    "scheme_id": "AP_AADABIDDA_NIDHI",
+    "scheme_name": "Aadabidda Nidhi",
+    "target_group": "Women 18–59",
+    "benefit_summary": "₹1,500/month (₹18,000/year) unconditional cash transfer",
+    "eligibility_rules": {
+      "gender": "female",
+      "age_min": 18,
+      "age_max": 59,
+      "resident": "Andhra Pradesh"
+    },
+    "documents_required": [
+      "Aadhaar (show only)",
+      "Bank account first page",
+      "White Ration Card if applicable"
+    ],
+    "application_channel": "Grama/Ward Sachivalayam; DBT",
+    "official_source_url": "https://ap.gov.in/",
+    "last_verified": "2025-06-11",
+    "verification_status": "Verified — Super Six",
+    "notes": "Targets adult women 18–59. Rollout details evolving — verify at Sachivalayam."
+  },
+  {
+    "scheme_id": "AP_STREE_SHAKTI",
+    "scheme_name": "Stree Shakti (Free Bus Travel)",
+    "target_group": "Women (all)",
+    "benefit_summary": "Free travel on APSRTC ordinary/express buses",
+    "eligibility_rules": {
+      "gender": "female",
+      "resident": "Andhra Pradesh"
+    },
+    "documents_required": [
+      "Any government ID showing AP residence — show only, do not enter number"
+    ],
+    "application_channel": "Show ID to APSRTC conductor",
+    "official_source_url": "https://ap.gov.in/",
+    "last_verified": "2025-06-11",
+    "verification_status": "Verified — Super Six",
+    "notes": "Universal for women domiciled in AP. No income limit."
+  },
+  {
+    "scheme_id": "AP_NIRUDYOGA_BRUTHI",
+    "scheme_name": "Nirudyoga Bruthi",
+    "target_group": "Unemployed Youth",
+    "benefit_summary": "₹3,000/month unemployment allowance",
+    "eligibility_rules": {
+      "age_min": 20,
+      "age_max": 35,
+      "education": "degree|pg|diploma",
+      "unemployed": true,
+      "no_active_PF_or_ESI": true,
+      "resident": "Andhra Pradesh"
+    },
+    "documents_required": [
+      "Degree/PG/Diploma certificate",
+      "Bank passbook first page",
+      "Self-declaration of unemployment and no active PF/ESI"
+    ],
+    "application_channel": "Grama/Ward Sachivalayam; DBT",
+    "official_source_url": "https://ap.gov.in/",
+    "last_verified": "2025-06-11",
+    "verification_status": "Verified — Super Six",
+    "notes": "Applicants with active PF or ESI are explicitly excluded."
+  },
+  {
+    "scheme_id": "AP_DIGI_LAKSHMI",
+    "scheme_name": "Digi-Lakshmi",
+    "target_group": "Women Entrepreneurs",
+    "benefit_summary": "₹2–2.5 lakh loans to run Common Service Centre (ATOM) kiosks",
+    "eligibility_rules": {
+      "gender": "female",
+      "shg_membership_min_years": 3,
+      "age_min": 21,
+      "age_max": 40,
+      "education": "graduate",
+      "urban_poor": true
+    },
+    "documents_required": [
+      "SHG membership proof (≥3 years)",
+      "Graduate certificate",
+      "Bank passbook first page",
+      "Technical aptitude check"
+    ],
+    "application_channel": "MEPMA; CSC e-Governance Services India Ltd for training",
+    "official_source_url": "https://egov.eletsonline.com/2025/07/andhra-pradesh-launches-digi-lakshmi-scheme-to-empower-urban-poor-women/",
+    "last_verified": "2025-07-02",
+    "verification_status": "Pilot / rollout — G.O. MS. No. 117",
+    "notes": "9,034 CSCs across ULBs. Age range varies by source (21–40 or 21–45). Mark as rollout, not universal."
+  },
+  {
+    "scheme_id": "AP_UNORGANISED_WELFARE",
+    "scheme_name": "AP Unorganised Worker Welfare",
+    "target_group": "Daily-Wage / Construction Workers",
+    "benefit_summary": "Maternity ₹20,000; marriage ₹40,000; death ₹20,000–₹60,000; free medical check-ups",
+    "eligibility_rules": {
+      "is_registered_unorganised_worker": true,
+      "resident": "Andhra Pradesh",
+      "sector": "construction|unorganised"
+    },
+    "documents_required": [
+      "Labour registration card / e-Shram registration",
+      "Bank passbook first page",
+      "Event proof (death, marriage, maternity certificate)"
+    ],
+    "application_channel": "Labour Department; ILACs / Labour Addas; online grievance module",
+    "official_source_url": "https://krishna.ap.gov.in/",
+    "last_verified": "2026-05-25",
+    "verification_status": "Verified — renewed framework 2026",
+    "notes": "88+ lakh registered unorganised workers, 18+ lakh construction workers. Health cover up to ₹2.5 lakh via NTR Vaidya Seva."
+  },
+  {
+    "scheme_id": "AP_MICRO_IRRIGATION",
+    "scheme_name": "Micro Irrigation Subsidy",
+    "target_group": "Small & Marginal Farmers",
+    "benefit_summary": "55% subsidy (cap ₹22,000/ha) for small/marginal/SC-ST; 45% (cap ₹18,000/ha) others",
+    "eligibility_rules": {
+      "occupation": "farmer",
+      "resident": "Andhra Pradesh",
+      "land_ownership_or_registered_lease": true,
+      "is_small_or_marginal": true
+    },
+    "documents_required": [
+      "Land records (Adangal/1-B)",
+      "Bank passbook first page",
+      "Quotation for micro-irrigation system"
+    ],
+    "application_channel": "Horticulture / Agriculture Dept; Raitha Samparka Kendra",
+    "official_source_url": "https://horticulture.ap.gov.in/",
+    "last_verified": "2025-11-23",
+    "verification_status": "Verified",
+    "notes": "AP leads the country in micro-irrigation coverage."
+  }
+]

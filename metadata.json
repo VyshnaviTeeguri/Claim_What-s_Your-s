@@ -1,0 +1,6 @@
+{
+  "name": "Claim What's Yours",
+  "description": "Plain-language Andhra Pradesh welfare scheme navigator for students, senior citizens, farmers, women entrepreneurs, and daily-wage worker families.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

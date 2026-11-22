@@ -1,0 +1,109 @@
+[
+  {
+    "id": "senior-widow-family",
+    "labelEn": "Senior Citizen & Widow Family",
+    "labelTe": "వృద్ధులు & వితంతువు కుటుంబం",
+    "utteranceEn": "I am a 67-year-old widow living in Guntur district with my grandson. I have a White Ration Card and bank passbook, and our monthly family income is below ₹10,000.",
+    "utteranceTe": "నేను గుంటూరు జిల్లాలో ఉంటున్న 67 ఏళ్ల వితంతువును. మాకు తెల్ల రేషన్ కార్డు, బ్యాంకు పాస్‌బుక్ ఉన్నాయి. నెల ఆదాయం ₹10,000 లోపు ఉంది.",
+    "profile": {
+      "age": 67,
+      "gender": "female",
+      "marital_status": "widow",
+      "occupation": "homemaker",
+      "monthly_family_income_band": "below_10000",
+      "has_white_ration_card": true,
+      "has_bank_passbook_first_page": true,
+      "has_aadhaar_card_possession": true,
+      "not_receiving_other_pension": true,
+      "resident_ap": true,
+      "district": "Guntur"
+    }
+  },
+  {
+    "id": "small-farmer-family",
+    "labelEn": "Small & Marginal Farmer",
+    "labelTe": "చిన్న & సన్నకారు రైతు",
+    "utteranceEn": "I am a 45-year-old small farmer in Prakasam district with 1.5 acres of wet land. I have a White Ration Card and Meebhoomi Adangal records.",
+    "utteranceTe": "నేను ప్రకాశం జిల్లాలో 1.5 ఎకరాల మాగాణి భూమి ఉన్న 45 ఏళ్ల రైతును. నాకు తెల్ల రేషన్ కార్డు, మీభూమి అడంగల్ ఉన్నాయి.",
+    "profile": {
+      "age": 45,
+      "gender": "male",
+      "marital_status": "married",
+      "occupation": "farmer",
+      "monthly_family_income_band": "below_10000",
+      "has_white_ration_card": true,
+      "land_acres_wet": 1.5,
+      "land_acres_dry": 0,
+      "has_land_records_meebhoomi": true,
+      "has_bank_passbook_first_page": true,
+      "has_aadhaar_card_possession": true,
+      "resident_ap": true,
+      "district": "Prakasam"
+    }
+  },
+  {
+    "id": "student-mother-family",
+    "labelEn": "School Student & Mother",
+    "labelTe": "పాఠశాల విద్యార్థి & తల్లి",
+    "utteranceEn": "I am a 36-year-old homemaker in Krishna district. My daughter studies in 8th class in a government school, we have a White Ration Card, and family income is below ₹10,000/month.",
+    "utteranceTe": "నేను కృష్ణా జిల్లాలో ఉంటున్న 36 ఏళ్ల గృహిణిని. మా అమ్మాయి ప్రభుత్వ పాఠశాలలో 8వ తరగతి చదువుతోంది. తెల్ల రేషన్ కార్డు ఉంది, నెల ఆదాయం ₹10,000 లోపు.",
+    "profile": {
+      "age": 36,
+      "gender": "female",
+      "marital_status": "married",
+      "occupation": "student",
+      "education_level": "school_1_to_12",
+      "monthly_family_income_band": "below_10000",
+      "has_white_ration_card": true,
+      "is_woman_head_of_household": true,
+      "attendance_above_75": true,
+      "has_bank_passbook_first_page": true,
+      "has_aadhaar_card_possession": true,
+      "resident_ap": true,
+      "district": "Krishna"
+    }
+  },
+  {
+    "id": "woman-entrepreneur-shg",
+    "labelEn": "Woman Entrepreneur (SHG)",
+    "labelTe": "మహిళా వ్యాపారవేత్త (SHG)",
+    "utteranceEn": "I am a 29-year-old woman graduate living in Visakhapatnam town. I have been in a women's SHG group for 4 years and want to start a small business.",
+    "utteranceTe": "నేను విశాఖపట్నం పట్టణంలో ఉంటున్న 29 ఏళ్ల డిగ్రీ చదివిన మహిళను. 4 ఏళ్లుగా మహిళా స్వయం సహాయక సంఘంలో (SHG) సభ్యురాలిగా ఉన్నాను.",
+    "profile": {
+      "age": 29,
+      "gender": "female",
+      "marital_status": "married",
+      "occupation": "small_business",
+      "education_level": "graduate",
+      "is_shg_member": true,
+      "shg_membership_years": 4,
+      "is_urban": true,
+      "has_white_ration_card": true,
+      "has_education_certificate": true,
+      "has_bank_passbook_first_page": true,
+      "has_aadhaar_card_possession": true,
+      "resident_ap": true,
+      "district": "Visakhapatnam"
+    }
+  },
+  {
+    "id": "daily-wage-construction",
+    "labelEn": "Daily-Wage Construction Worker",
+    "labelTe": "రోజువారీ భవన నిర్మాణ కార్మికుడు",
+    "utteranceEn": "I am a 34-year-old construction worker in Kurnool district. I am registered with an e-Shram / Labour card, have a White Ration Card, and earn below ₹10,000 a month.",
+    "utteranceTe": "నేను కర్నూలు జిల్లాలో రోజువారీ నిర్మాణ కార్మికుడిని (వయస్సు 34). నాకు ఈ-శ్రమ్ / లేబర్ కార్డు, తెల్ల రేషన్ కార్డు ఉన్నాయి. నెల ఆదాయం ₹10,000 లోపు.",
+    "profile": {
+      "age": 34,
+      "gender": "male",
+      "marital_status": "married",
+      "occupation": "construction_worker",
+      "monthly_family_income_band": "below_10000",
+      "has_white_ration_card": true,
+      "is_registered_unorganised_worker": true,
+      "has_labour_or_eshram_card": true,
+      "has_bank_passbook_first_page": true,
+      "resident_ap": true,
+      "district": "Kurnool"
+    }
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "id": "profile-eligible-btech",
+    "label": "Eligible B.Tech student — should match Vidya Deevena, Vasathi Deevena, Post-Matric",
+    "expectedStatus": "Likely Eligible",
+    "tests": "Happy path: all core rules pass for BC category, low income, AP resident",
+    "profile": {
+      "level": "UG",
+      "course": "B.Tech",
+      "year": "2nd year",
+      "annualFamilyIncome": 120000,
+      "state": "Andhra Pradesh",
+      "category": "BC",
+      "gender": "male",
+      "disability": false,
+      "age": 19
+    }
+  },
+  {
+    "id": "profile-more-info",
+    "label": "Missing income and category — should trigger follow-up questions",
+    "expectedStatus": "More Information Required",
+    "tests": "Unknown values must NOT be treated as 'no' — engine should mark rules as 'unknown' and ask follow-ups",
+    "profile": {
+      "level": "Intermediate",
+      "course": "MPC",
+      "year": "1st year",
+      "annualFamilyIncome": null,
+      "state": "Andhra Pradesh",
+      "category": null,
+      "gender": "female",
+      "disability": false,
+      "age": 16
+    }
+  },
+  {
+    "id": "profile-not-eligible",
+    "label": "High income + wrong state — should return Likely Not Eligible for most schemes",
+    "expectedStatus": "Likely Not Eligible",
+    "tests": "Hard rule failures: income exceeds all thresholds, state is Karnataka, category is General",
+    "profile": {
+      "level": "UG",
+      "course": "B.Com",
+      "year": "3rd year",
+      "annualFamilyIncome": 800000,
+      "state": "Karnataka",
+      "category": "General",
+      "gender": "female",
+      "disability": false,
+      "age": 21
+    }
+  },
+  {
+    "id": "profile-manual-verification",
+    "label": "BPL school student — income rule is non-numeric, requires manual verification",
+    "expectedStatus": "Requires Manual Verification",
+    "tests": "Tests the 'incomeMax: null + incomeRule' path — Amma Vodi uses BPL ration card, not a numeric income",
+    "profile": {
+      "level": "School",
+      "course": "Class 8",
+      "year": "8th standard",
+      "annualFamilyIncome": null,
+      "state": "Andhra Pradesh",
+      "category": "BC",
+      "gender": "female",
+      "disability": false,
+      "age": 13,
+      "hasBplRationCard": true
+    }
+  },
+  {
+    "id": "profile-disability-unknown",
+    "label": "Differently-abled student — tests disabilityRequired rule with disability=true",
+    "expectedStatus": "Likely Eligible",
+    "tests": "Tests disabilityRequired:true match and Pre-Matric Differently-Abled scheme",
+    "profile": {
+      "level": "School",
+      "course": "Class 6",
+      "year": "6th standard",
+      "annualFamilyIncome": 80000,
+      "state": "Andhra Pradesh",
+      "category": "BC",
+      "gender": "male",
+      "disability": true,
+      "age": 11
+    }
+  }
+]

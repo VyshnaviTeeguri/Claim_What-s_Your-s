@@ -1,0 +1,343 @@
+[
+  {
+    "id": "ap-jagananna-vidya-deevena",
+    "name": "Jagananna Vidya Deevena (Reimbursement of Tuition Fee)",
+    "description": "Full tuition fee reimbursement for eligible SC, ST, BC, EBC, Kapu, Minority, and Differently-Abled students pursuing higher education in Andhra Pradesh.",
+    "level": ["UG", "PG", "Polytechnic", "ITI"],
+    "courseTypes": ["B.Tech", "B.Sc", "B.Com", "BA", "B.Pharm", "MBA", "MCA", "Polytechnic", "ITI"],
+    "incomeMax": 250000,
+    "landHoldingMax": "10 acres wet OR 25 acres dry OR 25 acres combined",
+    "category": ["SC", "ST", "BC", "EBC", "Kapu", "Minority", "Differently-Abled"],
+    "gender": "any",
+    "disabilityRequired": false,
+    "residenceState": ["Andhra Pradesh"],
+    "attendanceRequired": "75%",
+    "otherConditions": [
+      "No family member should be a government employee/pensioner (sanitary workers exempted)",
+      "No family member should own a four-wheeler (taxis/tractors/autos exempted)",
+      "No family member should be an income tax payee",
+      "Urban property must be less than 1,500 sq ft built-up area",
+      "Must be admitted under convener quota (management/spot quota is ineligible)"
+    ],
+    "benefits": "Full fee reimbursement (tuition fee, special fees, other fees, and exam fees) credited directly to the college account.",
+    "documents": [
+      "Income certificate (issued by Mee Seva/Tahsildar)",
+      "Caste certificate (issued by Mee Seva)",
+      "Aadhaar card (for identity reference only)",
+      "Bank passbook (Aadhaar-linked)",
+      "Bonafide certificate from college",
+      "Previous qualifying marksheet",
+      "Attendance certificate (75% aggregate)"
+    ],
+    "applicationSteps": [
+      "Download the Jnanabhumi Scholarship Application Form (J-SAF) from jnanabhumi.ap.gov.in or collect it from your college.",
+      "Fill in the J-SAF and submit the signed copy to your College Principal.",
+      "The College Principal verifies and submits the application online through Jnanabhumi at the time of admission.",
+      "You receive an SMS confirming successful submission.",
+      "Visit a Mee Seva Centre with your Jnanabhumi application ID and Aadhaar for biometric authentication."
+    ],
+    "officialUrl": "https://jnanabhumi.ap.gov.in",
+    "applyUrl": "https://jnanabhumi.ap.gov.in",
+    "lastVerified": "2026-11-21",
+    "verificationStatus": "Verified",
+    "deadline": "2026-10-31",
+    "deadlineNote": "Application window typically opens in August and closes in October; confirm exact dates on the Jnanabhumi portal."
+  },
+  {
+    "id": "ap-jagananna-vasathi-deevena",
+    "name": "Jagananna Vasathi Deevena (Maintenance Fee)",
+    "description": "Hostel and mess fee assistance for eligible students pursuing higher education in Andhra Pradesh, credited to the mother's bank account.",
+    "level": ["UG", "PG", "Polytechnic", "ITI"],
+    "courseTypes": ["B.Tech", "B.Sc", "B.Com", "BA", "B.Pharm", "MBA", "MCA", "Polytechnic", "ITI"],
+    "incomeMax": 250000,
+    "landHoldingMax": "10 acres wet OR 25 acres dry OR 25 acres combined",
+    "category": ["SC", "ST", "BC", "EBC", "Kapu", "Minority", "Differently-Abled"],
+    "gender": "any",
+    "disabilityRequired": false,
+    "residenceState": ["Andhra Pradesh"],
+    "attendanceRequired": "75%",
+    "otherConditions": [
+      "No family member should be a government employee/pensioner (sanitary workers exempted)",
+      "No family member should own a four-wheeler (taxis/tractors/autos exempted)",
+      "No family member should be an income tax payee",
+      "Must be admitted under convener quota"
+    ],
+    "benefits": "₹10,000/year for ITI students, ₹15,000/year for Polytechnic students, and ₹20,000/year for Degree and above courses, credited directly to the mother's Aadhaar-linked bank account.",
+    "documents": [
+      "Income certificate (issued by Mee Seva/Tahsildar)",
+      "Caste certificate (issued by Mee Seva)",
+      "Aadhaar card (for identity reference only)",
+      "Mother's bank passbook (Aadhaar-linked)",
+      "Bonafide certificate from college",
+      "Previous qualifying marksheet",
+      "Attendance certificate (75% aggregate)"
+    ],
+    "applicationSteps": [
+      "Apply through the same Jnanabhumi scholarship application process as Jagananna Vidya Deevena.",
+      "Ensure your mother's Aadhaar-linked bank account details are correctly entered in the J-SAF form.",
+      "The College Principal submits your application online through Jnanabhumi.",
+      "Maintenance fee is disbursed to the mother's account after verification."
+    ],
+    "officialUrl": "https://jnanabhumi.ap.gov.in",
+    "applyUrl": "https://jnanabhumi.ap.gov.in",
+    "lastVerified": "2026-11-21",
+    "verificationStatus": "Verified",
+    "deadline": "2026-10-31",
+    "deadlineNote": "Same window as Jagananna Vidya Deevena; confirm exact dates on Jnanabhumi."
+  },
+  {
+    "id": "ap-jagananna-amma-vodi",
+    "name": "Jagananna Amma Vodi",
+    "description": "Financial assistance of ₹15,000 per year to mothers from BPL families who send their children to government or government-aided schools in Andhra Pradesh.",
+    "level": ["School"],
+    "courseTypes": ["Class 1 to Class 12"],
+    "incomeMax": null,
+    "incomeRule": "BPL family holding a white or pink ration card",
+    "category": ["All"],
+    "gender": "any",
+    "disabilityRequired": false,
+    "residenceState": ["Andhra Pradesh"],
+    "otherConditions": [
+      "Child must be enrolled in a government or government-aided school",
+      "Family must hold a white or pink (BPL) ration card",
+      "Child must be studying in Classes 1 to 12"
+    ],
+    "benefits": "₹15,000 per year per enrolled child, credited directly to the mother's Aadhaar-linked bank account.",
+    "documents": [
+      "Mother's Aadhaar card (for identity reference only)",
+      "White or pink ration card (BPL card)",
+      "Mother's bank passbook (Aadhaar-linked)",
+      "Child's school enrollment proof (collected by the school)",
+      "Residence proof"
+    ],
+    "applicationSteps": [
+      "Ensure your child is enrolled in a government or government-aided school in Andhra Pradesh.",
+      "The school collects the mother's Aadhaar number, bank account details, and ration card type.",
+      "The school submits this data to the AP Education Department.",
+      "Revenue and Education departments cross-verify eligibility.",
+      "The beneficiary list is published on the school notice board.",
+      "₹15,000 is credited to the mother's account in January each year."
+    ],
+    "officialUrl": "https://navasakam.ap.gov.in",
+    "applyUrl": "https://navasakam.ap.gov.in",
+    "lastVerified": "2026-11-21",
+    "verificationStatus": "Verified",
+    "deadline": null,
+    "deadlineNote": "Enrollment is through the school; annual payment is made in January. No individual application deadline as such — coordinate with your child's school."
+  },
+  {
+    "id": "ap-post-matric-scholarship",
+    "name": "AP Post-Matric Scholarship (SC/ST/BC/EBC/Minority)",
+    "description": "Scholarship for students pursuing post-matriculation courses (Intermediate through PhD) in Andhra Pradesh, covering tuition fee reimbursement and maintenance allowance.",
+    "level": ["Intermediate", "UG", "PG", "Professional Courses"],
+    "courseTypes": ["Intermediate", "B.Tech", "B.Sc", "B.Com", "BA", "B.Pharm", "MBA", "MCA", "PhD"],
+    "incomeMax": 250000,
+    "landHoldingMax": "10 acres wet OR 25 acres dry OR 25 acres combined",
+    "category": ["SC", "ST", "BC", "EBC", "Kapu", "Minority", "Differently-Abled"],
+    "gender": "any",
+    "disabilityRequired": false,
+    "residenceState": ["Andhra Pradesh"],
+    "attendanceRequired": "75%",
+    "otherConditions": [
+      "No family member should be a government employee/pensioner",
+      "No family member should be an income tax payee",
+      "Must be admitted under convener quota"
+    ],
+    "benefits": "RTF (full tuition fee reimbursement to college) + MTF (maintenance fee of ₹10,000–₹20,000 per year to the student's account).",
+    "documents": [
+      "Income certificate (issued by Mee Seva/Tahsildar)",
+      "Caste certificate (issued by Mee Seva)",
+      "Aadhaar card (for identity reference only)",
+      "Bank passbook (Aadhaar-linked)",
+      "Bonafide certificate from institution",
+      "Previous qualifying marksheet",
+      "Attendance certificate (75% aggregate)",
+      "Admission proof (convener quota allotment)"
+    ],
+    "applicationSteps": [
+      "Obtain the Jnanabhumi Scholarship Application Form (J-SAF) from your institution or download it from jnanabhumi.ap.gov.in.",
+      "Fill in the form and submit it to your institution's scholarship section.",
+      "The institution verifies and submits the application online through Jnanabhumi.",
+      "Fresh students complete biometric authentication at a Mee Seva Centre.",
+      "Renewal students complete biometric authentication at their college.",
+      "Scholarship is disbursed after verification and approval."
+    ],
+    "officialUrl": "https://jnanabhumi.ap.gov.in",
+    "applyUrl": "https://jnanabhumi.ap.gov.in",
+    "lastVerified": "2026-11-21",
+    "verificationStatus": "Verified",
+    "deadline": "2026-10-31",
+    "deadlineNote": "Application window typically opens in August and closes in October; confirm exact dates on Jnanabhumi."
+  },
+  {
+    "id": "ap-pre-matric-scholarship-disabled",
+    "name": "AP Pre-Matric Scholarship for Differently-Abled Students",
+    "description": "Scholarship for differently-abled students studying in Classes 1 to 10 in Andhra Pradesh, with parental income below ₹1,00,000 per annum.",
+    "level": ["School"],
+    "courseTypes": ["Class 1 to Class 10"],
+    "incomeMax": 100000,
+    "category": ["Differently-Abled"],
+    "gender": "any",
+    "disabilityRequired": true,
+    "residenceState": ["Andhra Pradesh"],
+    "otherConditions": [
+      "Student must be differently-abled",
+      "Studying in Classes 1 to 10"
+    ],
+    "benefits": "Scholarship amount as per government-prescribed rates for pre-matric differently-abled students.",
+    "documents": [
+      "Disability certificate (from competent authority)",
+      "Income certificate (issued by Tahsildar/Mee Seva)",
+      "Aadhaar card (for identity reference only)",
+      "Bank passbook (Aadhaar-linked)",
+      "Bonafide certificate from school",
+      "Previous class marksheet (if applicable)"
+    ],
+    "applicationSteps": [
+      "Obtain the application form from your school or the District Differently-Abled Welfare Office.",
+      "Fill in the form and attach all required documents.",
+      "Submit the application through your school to the concerned welfare department.",
+      "The department verifies eligibility and sanctions the scholarship.",
+      "Scholarship amount is credited to the student's bank account."
+    ],
+    "officialUrl": "https://kakinada.ap.gov.in/departments/welfare-of-differently-abled-transgender-senior-citizens-disabled/",
+    "applyUrl": "https://kakinada.ap.gov.in/departments/welfare-of-differently-abled-transgender-senior-citizens-disabled/",
+    "lastVerified": "2026-11-21",
+    "verificationStatus": "Verified",
+    "deadline": null,
+    "deadlineNote": "Deadline not officially confirmed; contact your school or District Differently-Abled Welfare Office."
+  },
+  {
+    "id": "ap-pre-matric-scholarship-minority",
+    "name": "AP Pre-Matric Scholarship for Minority Students",
+    "description": "Scholarship for economically backward minority students studying in Classes VI to X in Andhra Pradesh.",
+    "level": ["School"],
+    "courseTypes": ["Class VI to Class X"],
+    "incomeMax": 12000,
+    "category": ["Minority"],
+    "gender": "any",
+    "disabilityRequired": false,
+    "residenceState": ["Andhra Pradesh"],
+    "otherConditions": [
+      "Student must belong to a minority community",
+      "Family income must not exceed ₹12,000 per annum"
+    ],
+    "benefits": "Scholarship amount as per government-prescribed rates for pre-matric minority students.",
+    "documents": [
+      "Income certificate (issued by Tahsildar)",
+      "Minority community certificate",
+      "Aadhaar card (for identity reference only)",
+      "Bank passbook (Aadhaar-linked)",
+      "Bonafide certificate from school",
+      "Previous class marksheet"
+    ],
+    "applicationSteps": [
+      "Obtain the application form from your school or the AP State Minorities Finance Corporation (APSMFC) website (apsmfc.com).",
+      "Fill in the form and attach all required documents.",
+      "Submit the application through your educational institution only.",
+      "The institution forwards it to the concerned minorities welfare department.",
+      "Scholarship is sanctioned and disbursed after verification."
+    ],
+    "officialUrl": "https://www.apsmfc.com",
+    "applyUrl": "https://www.apsmfc.com",
+    "lastVerified": "2026-11-21",
+    "verificationStatus": "Verified",
+    "deadline": null,
+    "deadlineNote": "Deadline not officially confirmed; check with your school or apsmfc.com."
+  },
+  {
+    "id": "ap-ntr-vidyonnathi",
+    "name": "NTR Vidyonnathi Scheme (Free UPSC Coaching)",
+    "description": "Free coaching for UPSC Civil Services Examination for students from SC, ST, BC, Kapu, Brahmin, Minority, and EBC categories in Andhra Pradesh, with a stipend for books and lodging.",
+    "level": ["UG", "PG", "Graduate"],
+    "courseTypes": ["Any bachelor's degree (final-year students can apply)"],
+    "incomeMax": 600000,
+    "category": ["SC", "ST", "BC", "Kapu", "Brahmin", "Minority", "EBC"],
+    "gender": "any",
+    "disabilityRequired": false,
+    "residenceState": ["Andhra Pradesh"],
+    "ageMin": 21,
+    "ageMaxByCategory": {
+      "Kapu": 32,
+      "Brahmin": 32,
+      "Minority": 32,
+      "EBC": 32,
+      "BC": 35,
+      "SC": 37,
+      "ST": 37,
+      "PWD": 42
+    },
+    "otherConditions": [
+      "Must hold a bachelor's degree from a recognised institution (final-year students can apply)",
+      "Must not be receiving other government scholarships",
+      "Previous beneficiaries of NTR Vidyonnathi cannot reapply"
+    ],
+    "benefits": "Coaching fee up to ₹1.5 lakh, stipend of ₹10,000 for books/stationery/lodging, and one-time travel allowance of ₹2,000.",
+    "documents": [
+      "Aadhaar card (for identity reference only)",
+      "Income certificate (issued by Tahsildar)",
+      "Caste certificate (issued by Mee Seva)",
+      "Bachelor's degree certificate or final-year bonafide",
+      "Age proof (SSC/10th certificate)",
+      "Passport-size photograph",
+      "Bank passbook (Aadhaar-linked)"
+    ],
+    "applicationSteps": [
+      "Visit the Jnanabhumi portal (jnanabhumi.ap.gov.in).",
+      "Click on the 'NTR Vidyonnathi Application Form' link.",
+      "Fill in the online application form with your personal, educational, and category details.",
+      "Upload scanned copies of your study certificates, income certificate, and caste certificate.",
+      "Submit the application before the deadline.",
+      "Shortlisted candidates appear for a screening entrance exam.",
+      "Selected students are informed via SMS and choose their preferred coaching institute."
+    ],
+    "officialUrl": "https://jnanabhumi.ap.gov.in",
+    "applyUrl": "https://jnanabhumi.ap.gov.in",
+    "lastVerified": "2026-11-21",
+    "verificationStatus": "Verified",
+    "deadline": null,
+    "deadlineNote": "Annual notification; check Jnanabhumi for the current year's deadline."
+  },
+  {
+    "id": "ap-brahmin-bharati-scheme",
+    "name": "Bharati Scheme for Education (AP Brahmin Welfare Corporation)",
+    "description": "Education scholarship for Brahmin students pursuing school, undergraduate, or postgraduate courses in Andhra Pradesh, with family income up to ₹3,00,000 per annum.",
+    "level": ["School", "Intermediate", "UG", "PG"],
+    "courseTypes": ["B.Tech", "B.Sc", "B.Com", "BA", "B.Ed", "MBA", "MCA", "Intermediate", "School"],
+    "incomeMax": 300000,
+    "category": ["Brahmin"],
+    "gender": "any",
+    "disabilityRequired": false,
+    "residenceState": ["Andhra Pradesh"],
+    "otherConditions": [
+      "Student and both parents must belong to the Brahmin community",
+      "Parents must reside in Andhra Pradesh",
+      "Student must be enrolled in the Praja Sadhikara Survey (PSS)",
+      "Pursuing a regular course in a recognised institution"
+    ],
+    "benefits": "Financial assistance for education as per the scheme's course-wise rates.",
+    "documents": [
+      "Income certificate (issued by Mee Seva/Revenue Authorities)",
+      "Brahmin community certificate",
+      "Aadhaar card (for identity reference only)",
+      "Bank passbook (Aadhaar-linked)",
+      "Bonafide certificate from institution",
+      "Previous qualifying marksheet",
+      "Praja Sadhikara Survey (PSS) enrollment proof"
+    ],
+    "applicationSteps": [
+      "Visit the Andhra Pradesh Brahmin Welfare Corporation website (andhrabrahmin.ap.gov.in).",
+      "Navigate to the Bharati Scheme for Education section.",
+      "Register and fill in the online application form.",
+      "Upload the required documents (income certificate, caste certificate, etc.).",
+      "Submit the application and note the reference number.",
+      "Track the application status on the portal."
+    ],
+    "officialUrl": "https://www.andhrabrahmin.ap.gov.in",
+    "applyUrl": "https://www.andhrabrahmin.ap.gov.in",
+    "lastVerified": "2026-11-21",
+    "verificationStatus": "Verified",
+    "deadline": null,
+    "deadlineNote": "Deadline not officially confirmed; check andhrabrahmin.ap.gov.in for the current notification."
+  }
+]
